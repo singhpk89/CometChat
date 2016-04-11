@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CometChat", "CometChat\CometChat.csproj", "{F98559B3-CF27-4364-A0AE-322E6D4777FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCometChat", "TestCometChat\TestCometChat.csproj", "{FA1B24B8-6843-4802-A006-929D9F91CCCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CometTest", "CometTest\CometTest.csproj", "{DAD0AE2B-77AC-4485-BAA9-3A4C474A720B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD0AE2B-77AC-4485-BAA9-3A4C474A720B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD0AE2B-77AC-4485-BAA9-3A4C474A720B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD0AE2B-77AC-4485-BAA9-3A4C474A720B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD0AE2B-77AC-4485-BAA9-3A4C474A720B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98559B3-CF27-4364-A0AE-322E6D4777FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98559B3-CF27-4364-A0AE-322E6D4777FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98559B3-CF27-4364-A0AE-322E6D4777FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98559B3-CF27-4364-A0AE-322E6D4777FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1B24B8-6843-4802-A006-929D9F91CCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1B24B8-6843-4802-A006-929D9F91CCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1B24B8-6843-4802-A006-929D9F91CCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1B24B8-6843-4802-A006-929D9F91CCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

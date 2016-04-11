@@ -1,0 +1,68 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.inscripts.videochat']/class[@name='IncomingCallActivity']/field[@name='incomingCallActivity']" name="managedName">NewIncomingCallActivity</attr>
+  <attr path="/api/package[@name='com.inscripts.videochat']/class[@name='OutgoingCallActivity']/field[@name='outgoingCallActivity']" name="managedName">NewOutgoingCallActivity</attr>
+  <attr path="/api/package[@name='com.inscripts.activities']/class[@name='BlankActivity']/field[@name='blankActivity']" name="managedName">NewBlankActivity</attr>
+  <attr path="/api/package[@name='com.inscripts.videochat']/class[@name='VideoChatActivity']" name="managedName">NewVideoChatActivity</attr>
+<!--  <attr path="/api/package[@name='com.inscripts.utils']/class[@name='AsyncTaskContactRetrieve']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.Void...']]" name="managedName"></attr>
+  <attr path="/api/package[@name='com.inscripts.utils']/class[@name='AsyncTaskContactRetrieve']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.Void...']]" name="managedName"></attr>
+  <attr path="/api/package[@name='com.inscripts.helpers']/class[@name='FileUploadHelper']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.Void...']]" name="managedName"></attr>-->
+  <remove-node path="/api/package[@name='com.inscripts.utils']/class[@name='AsyncTaskContactRetrieve']" />
+  <remove-node path="/api/package[@name='com.inscripts.helpers']/class[@name='FileUploadHelper']" />
+  <remove-node path="/api/package[@name='com.inscripts.helpers']/class[@name='FileDownloadHelper']" />
+ 
+  <!--Remove Third Party Libraries-->
+  <!--org.bouncycastle-->
+  <!--path='bouncycastle.pqc'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.mceliece']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.util']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.rainbow']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.pqc.crypto.ntru']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.pqc.math.ntru.polynomial']"></remove-node>
+  <!--path='bouncycastle.jce'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.jce.provider']"></remove-node>
+  <!--path='bouncycastle.cert'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.cert.ocsp']"></remove-node>
+  <!--path='bouncycastle.x509'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.x509']"></remove-node>
+  <!--path='bouncycastle.cms'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.cms']"></remove-node>
+  <!--path='bouncycastle.util'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.util']"></remove-node>
+  <!--path='bouncycastle.crypto'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.crypto']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.crypto.tls']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.crypto.prng']"></remove-node>
+  <!--path='bouncycastle.openpgp'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.openpgp']"></remove-node>
+  <!--path='bouncycastle.openssl'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.openssl']"></remove-node>
+  <!--path='bouncycastle.jcajce'-->
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.symmetric']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.symmetric.util']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.dh']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.util']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.dsa']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.ec']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.gost']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.ies']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.rsa']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.x509']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.mceliece']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.util']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.digest']"></remove-node>
+  <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.keystore']"></remove-node>
+
+  <remove-node path="/api/package[@name='fm']"></remove-node>
+  <!--path='fm'-->
+  <remove-node path="/api/package[@name='com.google.libvpx']"></remove-node>
+  <!--path='com.parse'-->
+  <remove-node path="/api/package[@name='com.parse.signpost.http']"></remove-node>
+  <remove-node path="/api/package[@name='com.parse.codec.net']"></remove-node>
+  <remove-node path="/api/package[@name='com.parse.codec.binary']"></remove-node>
+  <remove-node path="/api/package[@name='com.parse']"></remove-node>
+  <!--path='com.pubnub'-->
+  <remove-node path="/api/package[@name='com.pubnub.api']"></remove-node>
+</metadata>
